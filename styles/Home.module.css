@@ -37,7 +37,7 @@
 }
 
 .description {
-  margin-top: 1rem;
+  margin: 1rem 0 3rem;
   line-height: 1.5;
   font-size: 1.2rem;
 }
@@ -55,7 +55,6 @@
   justify-content: center;
   align-items: center;
   padding: 5px;
-  margin-top: 2rem;
   border-radius: 50%;
   border: 1px solid black;
   transition: all 0.3s ease-in-out;
@@ -70,12 +69,22 @@
   margin-left: 0.5rem;
 }
 
+@media (max-width: 680px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .footer {
-    border-color: #222;
+    border-color: #333;
   }
 
-  .logo img {
+  .link {
+    border-color: white;
+  }
+
+  .container img {
     filter: invert(1);
   }
 }
