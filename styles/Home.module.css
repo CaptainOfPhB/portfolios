@@ -106,7 +106,9 @@
     border-color: #333;
   }
 
-  .link {
+  .link,
+  .divider,
+  .email {
     border-color: white;
   }
 
