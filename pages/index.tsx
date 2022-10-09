@@ -13,6 +13,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <div className={styles.avatar}>
+          <Image src='/avatar.svg' alt='me' width={256} height={256} />
+        </div>
         <h1 className={styles.title}>CaptainOfPhB</h1>
         <p className={styles.description}>I&apos;m a front-end developer, currently in Shanghai, China.</p>
         <div className={styles.links}>
@@ -31,13 +34,25 @@ const Home: NextPage = () => {
           <a className={styles.link} title='Twitter' target='_blank' rel='noreferrer' href='https://twitter.com/CaptainOfPhB'>
             <Image src='/twitter.svg' alt='twitter' width={28} height={28} />
           </a>
-          <a className={styles.link} title='Email' target='_blank' rel='noreferrer' href='mailto:captainofphb@gmail.com'>
-            <Image src='/mail.svg' alt='mail' width={28} height={28} />
+          <a className={styles.link} title='Phone' target='_blank' rel='noreferrer' href='tel:+8617349777173'>
+            <Image src='/phone.svg' alt='phone' width={28} height={28} />
           </a>
           <a className={styles.link} title='WeChat' target='_blank' rel='noreferrer' href='https://github.com/CaptainOfPhB'>
             <Image src='/wechat.svg' alt='wechat' width={28} height={28} />
           </a>
         </div>
+        <div className={styles.divider} />
+        <div className={styles.introduction}>
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
+          don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+          All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary
+          of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore
+          always free from repetition, injected humour, or non-characteristic words etc.
+        </div>
+        <a className={styles.email} href='mailto:captainofphb@gmail.com'>
+          <Image src='/send.svg' alt='send' width={28} height={28} />
+          Email Me
+        </a>
       </main>
 
       <footer className={styles.footer}>
