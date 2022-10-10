@@ -46,14 +46,14 @@ const Home: NextPage = () => {
           <p>
             I&apos;m CaptainOfPhB and my Chinese name is 戴江涛. My hometown is in Tianshui, Gansu province where I have lived for about 20 years. I worked for China Mobile company
             for one year and a half after graduating from XUT(Xi&apos;an University of Technology) in 2016. I quitted the job when I found I&apos;m really interested about the
-            coding. I found my first front-end development job in 2018 at Shanghai after learning the front-end development for about a half year.
+            coding, so I found my first front-end development job in 2018 at Shanghai after learning the front-end development for about a half year.
           </p>
           <p>
             At present, I have 4 years of experience and have been developing with React.js for over 3 years. I&apos;ve been developing backend management systems for most of my
             work. I try to keep my code clean and simple, and I&apos;m always trying to find a better way to solve problems.
           </p>
           <p>
-            I like to traveling by self-driving with my friends outside of work, and sometime I&apos; would like to cooking at home. Also, I have two lovely cats who have been with
+            I like to traveling by self-driving with my friends outside of work, and sometime I would like to cooking at home. Also, I have two lovely cats who have been with
             me for three years.
           </p>
           <p>I try to learn English and some new techniques in my spare time. I would appreciate it if you could teach me anything new to me. Feel free to contact me.</p>
