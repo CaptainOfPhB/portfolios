@@ -85,7 +85,7 @@ const Home: NextPage = () => {
         </div>
       </footer>
 
-      <a rel="me" style={{ display: 'none' }} href="https://mastodon.world/@captainofphb">Mastodon</a>
+      <a rel="me" href="https://mastodon.world/@captainofphb">Mastodon</a>
     </div>
   );
 };
