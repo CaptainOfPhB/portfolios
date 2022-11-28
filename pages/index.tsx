@@ -19,25 +19,28 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>CaptainOfPhB</h1>
         <p className={styles.description}>Focus on front-end development, currently in Shanghai, China.</p>
         <div className={styles.links}>
-          <a className={styles.link} title='GitHub' target='_blank' rel='noreferrer' href='https://github.com/CaptainOfPhB'>
+          <a className={styles.link} title='GitHub' target='_blank' rel='noreferrer me' href='https://github.com/CaptainOfPhB'>
             <Image src='/github.svg' alt='github' width={32} height={32} />
           </a>
-          <a className={styles.link} title='Blog' target='_blank' rel='noreferrer' href='https://daijiangtao.blog'>
+          <a className={styles.link} title='Blog' target='_blank' rel='noreferrer me' href='https://daijiangtao.blog'>
             <Image src='/blog.svg' alt='blog' width={24} height={24} />
           </a>
-          <a className={styles.link} title='resume' target='_blank' rel='noreferrer' onClick={() => alert('Sorry, resume is under constructing')}>
+          <a className={styles.link} title='resume' target='_blank' rel='noreferrer me' onClick={() => alert('Sorry, resume is under constructing')}>
             <Image src='/resume.svg' alt='resume' width={26} height={26} />
           </a>
-          <a className={styles.link} title='知乎' target='_blank' rel='noreferrer' href='https://www.zhihu.com/people/CaptainInPHW'>
+          <a className={styles.link} title='知乎' target='_blank' rel='noreferrer me' href='https://www.zhihu.com/people/CaptainInPHW'>
             <Image src='/zhihu.svg' alt='知乎' width={28} height={28} />
           </a>
-          <a className={styles.link} title='Twitter' target='_blank' rel='noreferrer' href='https://twitter.com/CaptainOfPhB'>
+          <a className={styles.link} title='Twitter' target='_blank' rel='noreferrer me' href='https://twitter.com/CaptainOfPhB'>
             <Image src='/twitter.svg' alt='twitter' width={28} height={28} />
           </a>
-          <a className={styles.link} title='Phone' target='_blank' rel='noreferrer' href='tel:+8617349777173'>
+          <a className={styles.link} title='Mastodon' target='_blank' rel='noreferrer me' href='https://mastodon.world/@captainofphb'>
+            <Image src='/mastodon.svg' alt='mastodon' width={28} height={28} />
+          </a>
+          <a className={styles.link} title='Phone' target='_blank' rel='noreferrer me' href='tel:+8617349777173'>
             <Image src='/phone.svg' alt='phone' width={28} height={28} />
           </a>
-          <a className={styles.link} title='WeChat' target='_blank' rel='noreferrer' href='https://pic1.zhimg.com/80/v2-b5de1adce0d79ec3bed787f9369db7d9_1440w.jpeg'>
+          <a className={styles.link} title='WeChat' target='_blank' rel='noreferrer me' href='https://pic1.zhimg.com/80/v2-b5de1adce0d79ec3bed787f9369db7d9_1440w.jpeg'>
             <Image src='/wechat.svg' alt='wechat' width={28} height={28} />
           </a>
         </div>
