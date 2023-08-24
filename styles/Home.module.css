@@ -15,13 +15,30 @@
 }
 
 .avatar {
-  margin-left: -55px;
+  margin: 50px 0;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.avatar .me {
+  width: 256px;
+  height: 256px;
+  transform-origin: 58% 62%;
+  transition: all 0.3s ease-in-out;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../public/me.png');
+}
+
+.avatar .me:hover {
+  transform: scale(2.5);
 }
 
 .title {
   margin: 0;
   line-height: 1.15;
   font-size: 3rem;
+  font-weight: bold;
 }
 
 .description {
@@ -39,6 +56,7 @@
   gap: 1rem;
   display: flex;
   flex-wrap: wrap;
+  margin: 20px 0 10px;
 }
 
 .link {
@@ -58,7 +76,6 @@
 }
 
 .introduction {
-  font-size: 1.2rem;
   line-height: 1.5;
 }
 
@@ -72,47 +89,4 @@
   line-height: 1.5;
   border-radius: 5px;
   border: 3px solid black;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-.footer .item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 680px) {
-  .footer {
-    flex-direction: column;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .footer {
-    border-color: #333;
-  }
-
-  .link,
-  .divider,
-  .email {
-    border-color: white;
-  }
-
-  .container img {
-    filter: invert(1);
-  }
 }
