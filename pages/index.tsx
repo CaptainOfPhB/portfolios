@@ -14,9 +14,7 @@ function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.avatar}>
-          <div className={styles.me} />
-        </div>
+        <Image className={styles.me} src='/me.png' alt='Profile Picture' priority width={256} height={256} />
         <div className={styles.title}>{config.title}</div>
         <div className={styles.links}>
           {config.socialLinks.map(it => (

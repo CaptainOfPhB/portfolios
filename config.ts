@@ -1,7 +1,7 @@
 const config = {
   siteIcon: '/favicon.ico',
   siteTitle: 'CaptainOfPhB',
-  siteDescription: 'CaptainOfPhb\'s profile',
+  siteDescription: `CaptainOfPhB's profile`,
   title: 'CaptainOfPhB',
   mail: 'captainofphb@gmail.com',
   description: 'Focus on front-end development, currently in Shanghai, China.',
@@ -15,7 +15,7 @@ const config = {
   introductions: [
     `Hi there, I'm CaptainOfPhB, a front-end developer from Shanghai, China.`,
     `At present, I have ${new Date().getFullYear() - 2018} years of experience on front-end development, and working with React for over ${new Date().getFullYear() - 2018 - 1} years. I have been developing backend management system for most of my work. I write clean and simple code, and always try to find the right way to solve problems in my work.`,
-    `Outside of work, I like to self-driving travel with friends, or sometime cook at home on weekends.`,
+    `Outside of work, I like to self-driving travel with friends, or sometimes cook at home on weekends.`,
     `Like most of programmer, I have two lovely cats which have been with me over ${new Date().getFullYear() - 2018 - 1} years.`,
     `I learn English and some new techniques in my spare time. I would appreciate it if you could teach me anything new to me.`,
     `Feel free to contact me if you can offer me a better job or just wanna make friend with me.`,
