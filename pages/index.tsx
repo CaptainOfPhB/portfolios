@@ -28,7 +28,7 @@ function Home() {
           {config.introductions.map((it, index) => <p key={index}>{it}</p>)}
         </div>
         <a className={styles.email} href='mailto:captainofphb@gmail.com'>
-          <Image src='/send.svg' alt='send' width={28} height={28} />
+          <Image src='/send.svg' alt='send' width={18} height={18} />
           Email Me
         </a>
       </main>
